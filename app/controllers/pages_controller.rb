@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  @base_title = "Ruby on Rails Tutorial Sample App"
+
   
   def home
       @title = "Home"
@@ -15,5 +15,5 @@ class PagesController < ApplicationController
 
   def help
       @title = "Help"
-  end
+  end 
 end
